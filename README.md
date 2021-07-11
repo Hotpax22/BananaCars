@@ -1,9 +1,9 @@
-# BananaCars
+# 🟡 🍌 Banana Cars 🍌 🟡
 </br>Drive around and go OOO OO AA AAA
 
-# [Download]()
+![Drive Safely](https://github.com/TrueTamashii/BananaCars/blob/aae89414360a7c2c080769a307bb5e7145f82d5c/Assets/Animated%20GIF-downsized_large.gif)
 
-![](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+# [Download]()
 
 # Use:
 To use this mod move the left joystick up and down while turning with the in-game turning on the right joystick
