@@ -7,7 +7,7 @@
 # [Download](https://github.com/TrueTamashii/BananaCars/blob/main/Code/BananaCars.dll?raw=true)
 
 # Use:
-To use this mod move the left joystick up and down while turning with the in-game turning on the right joystick
+To use this mod push the left grip down while turning with the in-game turning on the right joystick
 </br>Some variables are configurable in the cfg file generated when you run the game with the mod
 
 # Version:
