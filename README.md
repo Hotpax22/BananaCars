@@ -1,4 +1,4 @@
-# 🟡 🍌 Banana Cars 🍌 🟡
+# 🟡 🍌 Banana Cars (grip version) 🍌 🟡
 </br>Drive around and go OOO OO AA AAA
 
 ![Drive Safely](https://github.com/TrueTamashii/BananaCars/blob/aae89414360a7c2c080769a307bb5e7145f82d5c/Assets/Animated%20GIF-downsized_large.gif)
