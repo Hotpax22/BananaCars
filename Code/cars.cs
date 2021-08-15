@@ -67,7 +67,9 @@ namespace Rewind
                 Start = true;
             }
 
-            if (!PhotonNetwork.CurrentRoom.IsVisible || !PhotonNetwork.InRoom)
+            bool Enabled = PhotonNetwork.CurrentRoom == null ? false : !PhotonNetwork.CurrentRoom.IsVisible;
+
+            if (Enabled)
             {
                 List<InputDevice> list = new List<InputDevice>();
                 InputDevices.GetDevices(list);
@@ -76,7 +78,7 @@ namespace Rewind
                 {
                     if (list[i].characteristics.HasFlag(InputDeviceCharacteristics.Left))
                     {
-                        list[i].TryGetFeatureValue(CommonUsages.primary2DAxis, out left_joystick);
+                        list[i].TryGetFeatureValue(CommonUsages.grip, out left_joystick.y);
                     }
                     if (list[i].characteristics.HasFlag(InputDeviceCharacteristics.Right))
                     {
