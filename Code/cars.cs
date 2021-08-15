@@ -21,7 +21,7 @@ using System.IO;
 namespace Rewind
 {
 
-    [BepInPlugin("org.BananaInc.gorilla.BananaCar", "Banana Car", "1.0.0.0")]
+    [BepInPlugin("org.BananaInc.gorilla.BananaCar", "Banana Car", "1.0.1.0")]
     public class HarmonyStuff : BaseUnityPlugin
     {
         public void Awake()
@@ -67,7 +67,9 @@ namespace Rewind
                 Start = true;
             }
 
-            if (!PhotonNetwork.CurrentRoom.IsVisible || !PhotonNetwork.InRoom)
+            bool Enabled = PhotonNetwork.CurrentRoom == null ? false : !PhotonNetwork.CurrentRoom.IsVisible;
+
+            if (Enabled)
             {
                 List<InputDevice> list = new List<InputDevice>();
                 InputDevices.GetDevices(list);
